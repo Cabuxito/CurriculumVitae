@@ -4,7 +4,7 @@
 }
 
 
-<div class="d-flex justify-content-between">
+<div class="d-flex justify-content-around flex-wrap p-3">
     @foreach (var project in Model.Projects)
     {
         <div class="card">
@@ -15,7 +15,7 @@
                 <p class="card-text">@project.Description</p>
             </div>
             <div class="card-body">
-                <a href="@project.Url" target="_blank" class="card-link ">
+                <a href="@project.Url" target="_blank" class="card-link">
                     <img class="w-25 w-25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </div>

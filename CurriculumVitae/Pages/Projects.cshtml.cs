@@ -32,7 +32,24 @@ namespace CurriculumVitae.Pages
                         Name = "Snake Game",
                         Description = "Jeg har lavet et snake spil som er lavet på WPF.",
                         Url= "https://github.com/Cabuxito/SnakeProjekt"
-                    }
+                    },
+                    new Projects
+                    {
+                        Name = "test",
+
+                    },
+                      new Projects
+                    {
+                        Name = "Snake Game",
+                        Description = "Jeg har lavet et snake spil som er lavet på WPF.",
+                        Url= "https://github.com/Cabuxito/SnakeProjekt"
+                    },
+                        new Projects
+                    {
+                        Name = "Snake Game",
+                        Description = "Jeg har lavet et snake spil som er lavet på WPF.",
+                        Url= "https://github.com/Cabuxito/SnakeProjekt"
+                    },
                 }
             );
         }
