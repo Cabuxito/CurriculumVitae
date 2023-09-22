@@ -1,0 +1,24 @@
+﻿@page
+@model CurriculumVitae.Pages.ProjectsModel
+@{
+}
+
+
+<div class="d-flex justify-content-between">
+    @foreach (var project in Model.Projects)
+    {
+        <div class="card">
+            <img src="/Images/0_VYGU5sx8ET8hbar1.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">@project.Name</h5>
+                <hr>
+                <p class="card-text">@project.Description</p>
+            </div>
+            <div class="card-body">
+                <a href="@project.Url" target="_blank" class="card-link ">
+                    <img class="w-25 w-25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </div>
+        </div>
+    }
+</div>
