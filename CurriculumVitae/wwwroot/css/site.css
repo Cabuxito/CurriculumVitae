@@ -1,6 +1,6 @@
 body {
     background-image: url('../images/bg.jpg');
-    
+    font-size: 20px;
     margin-bottom: 60px;
 }
 
@@ -28,26 +28,55 @@ html {
   min-height: 100%;
 }
 
-.card {
+.myCardProject {
     background-color: floralwhite;
     width: 16rem;
     height: 28rem;
     transition: all 0.2s ease;
     font-size: 12px;
+    margin-top: 8%;
 }
-    .card:hover {
+    .myCardProject:hover {
         box-shadow: 2px 4px 4px 1px;
         transform: scale(1.1);
         font-size: 15px;
         height: 32rem;
     }
-        .card img{
-            width: 254px;
+        .myCardProject a{
+            margin-left: 5rem;
         }
-            .card a{
-                margin-left: 5rem;
-            }
 
-.Me{
-    border: 5px solid;
+.myCardIndex {
+    background-color: floralwhite;
+    margin-top: 1%;
 }
+    .myCardIndex:hover {
+        box-shadow: 2px 4px 4px 1px;
+        transform: scale(1.1);
+     }
+
+.name{
+    font-size: 3rem;
+}
+
+.defaultClass{
+    margin-top: 5%;
+    margin-left: 2.5%;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-color: floralwhite;
+    width: 50%;
+}
+.btnRedirect{
+    margin-top: 1%;
+    margin-left: 47.7%;
+    padding-bottom: 2px;
+    border: 0.5px solid;
+    border-color: floralwhite;
+    width: 90px;
+    font-size: 15px;
+}
+    .btnRedirect:hover {
+        transform: scale(1.3);
+
+    }
