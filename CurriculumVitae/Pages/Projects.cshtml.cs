@@ -51,7 +51,7 @@ namespace CurriculumVitae.Pages
                     {
                         Name = "Blackjack Game",
                         Description = "I have a projekt where I need to improve my skills with javaScript. So I need to do a BlackJack game on HTML and JS, and have some basics functions.",
-                        Url= "https://github.com/Cabuxito/HappyBody"
+                        Url= "https://github.com/Cabuxito/BlackJack"
                     },
                 }
             );

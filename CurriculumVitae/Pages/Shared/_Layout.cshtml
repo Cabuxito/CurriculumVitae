@@ -12,7 +12,10 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand text-light" asp-page="/Index">CurriculumVitae</a>
+                <a class="navbar-brand text-light" style="font-size: 40px;" asp-page="/Index">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" class="brandIcon"/>
+                    Brian Pedersen
+                </a>
                 <button class="btnCollapse navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
@@ -20,10 +23,10 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Projects">Projects</a>
+                            <a class="nav-link text-light mt-3" asp-area="" asp-page="/Skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Contact">Contact</a>
+                            <a class="nav-link text-light mt-3" asp-area="" asp-page="/Projects">Projects</a>
                         </li>
                     </ul>
                 </div>

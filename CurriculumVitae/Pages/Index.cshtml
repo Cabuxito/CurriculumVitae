@@ -7,43 +7,27 @@
 
 <div class="row defaultClass">
     <div class="col-5">
-        <p class="name text-light">Brian Pedersen</p>
+        <p class="name text-light ms-4">Brian Pedersen</p>
     </div>
     <div class="row-cols-2">
-        <p class="positionWork text-light">Full Stack Developer</p>
+        <p class="positionWork text-light ms-4">Full Stack Developer</p>
     </div>
-    <div class=" text-light">
+    <div class=" text-light ms-4 w-75">
         <p>I'm studying Data Technician with specialization in programming since 2021. 
-            I do my internship at school and normaly I use C#, HTML, Bootstrap and SQL because we work most with websites.
+            I do my internship at school where I do normally work on websites or apps, both in teams or alone.
             I have passed the H3 subject so far.</p>
     </div>
-</div>
-<div class="btnRedirect text-center">
-    <a href="/Projects" class="text-decoration-none text-light"> Projects </a>
-</div>
-
-
-<div class="d-flex justify-content-around flex-wrap p-3">
-    @foreach (var items in Model.Portfolios)
-    {
-        <div class="card myCardIndex" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title text-center">@items.Title</h5>
-                <hr>
-                @foreach (var skill in items.Skills)
-                {
-                    <div class="row">
-                        <div class="col-2">
-                            <img src="@skill.Icon" height="40">
-                        </div>
-                        <div class="col-10 mt-1">
-                            <p>@skill.Name</p>
-                        </div>
-                        
-                    </div>
-                }
-                
-            </div>
+    <div class="pb-3">
+        <div class="justify-content-lg-between">
+            <a href="https://www.linkedin.com/in/briang-pedersen/" target="_blank" class="text-decoration-none ms-4">
+                <img class="iconIndex" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="35" />
+            </a>
+            <a href="https://github.com/Cabuxito" target="_blank" class="text-decoration-none">
+                 <img class="gitIcon"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="35" />
+            </a >
+            <a class="text-decoration-none" href="mailto:briandigangi@hotmail.com" >
+                <i class="fa-regular fa-envelope fa-2xl" style="color: #ffffff;"></i>
+            </a>
         </div>
-    }
+    </div>
 </div>
