@@ -3,47 +3,46 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CurriculumVitae</title>
+    <title>@ViewData["Title"] - Brian Pedersen</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/CurriculumVitae.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand text-light" style="font-size: 40px;" asp-page="/Index">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" class="brandIcon"/>
-                    Brian Pedersen
-                </a>
-                <button class="btnCollapse navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-light mt-3" asp-area="" asp-page="/Skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light mt-3" asp-area="" asp-page="/Projects">Projects</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container-fluid">
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm box-shadow mb-3 w-100">
+                    <a class="navbar-brand text-light" asp-page="/Index">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" class="brandIcon"/>
+                        Brian Pedersen
+                    </a>
+                    <button class="btnCollapse navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1" style="font-size: 15px">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-page="/Skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-page="/Projects">Projects</a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+        </header>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="footer text-muted">
-        <div class="container-fluid text-light d-flex justify-content-end">
+    <footer class="footer text-white">
+        <div class="container-fluid text-end">
             &copy; 2023 - Brian Pedersen - 
         </div>
     </footer>
+    
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

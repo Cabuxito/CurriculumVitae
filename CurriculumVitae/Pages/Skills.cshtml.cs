@@ -114,6 +114,58 @@ namespace CurriculumVitae.Pages
                             }
                         }
                     },
+                    new Portfolio
+                    {
+                        Title = "Framework",
+                        Skills = new List<Skill>
+                        {
+                            new Skill
+                            {
+                                Name = "Razor Pages",
+                                Icon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            },
+                            new Skill
+                            {
+                                Name = "Blazor",
+                                Icon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            },
+                            new Skill
+                            {
+                                Name = "Entity Framework",
+                                Icon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            }
+                        }
+                    },
+                    new Portfolio
+                    {
+                        Title = "Big Data",
+                        Skills = new List<Skill>
+                        {
+                            new Skill
+                            {
+                                Name = "ETL ( Extract, Transform, Load )",
+                                Icon = "https://thenounproject.com/api/private/icons/6105266/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0"
+                            },
+                            new Skill
+                            {
+                                Name = "ELT ( Extract, Load, Transform )",
+                                Icon = "https://thenounproject.com/api/private/icons/6105266/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0"
+                            },
+                        }
+                    },
+                    new Portfolio
+                    {
+                        Title = "API",
+                        Skills = new List<Skill>
+                        {
+                            new Skill
+                            {
+                                Name = "Rest API",
+                                Icon = "https://thenounproject.com/api/private/icons/5998475/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0"
+                            },
+                            
+                        }
+                    },
                 }
             );
         }
